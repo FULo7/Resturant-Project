@@ -171,6 +171,169 @@ b{
 .owl-theme{
     z-index: 0;
 }
+#chefs{
+    padding-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.chefs-text{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.chefs{
+    color: #d96969;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.chefs-head{
+    font-size: 30px;
+}
+.chefs-gp{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    width: 350px;
+    height: 420px;
+    border: 2px solid grey;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container img{
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+    border-radius: 3px;
+    object-position: center;
+}
+.img-text {
+    margin-left: 110px;
+}
+.img-text p {
+    margin-left: 20px;
+}
+.contact{
+    padding-top: 100px;
+}
+.contact-container{
+    display: flex;
+    padding: 60px 50px;
+}
+.contact-text{
+    flex: 1;
+    padding: 50px 100px ;
+}
+.contact-text h3,h1{
+    margin-bottom: 25px;
+}
+.info{
+    display: flex;
+    margin-top: 70px;
+}
+.pinfo,.einfo{
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.company,.phone{
+    width: 80px;
+    height: 80px;
+    margin-left: 75px;
+    background-color: #fb5849;
+    border-radius: 50%;
+    margin-top: -40px;
+    overflow: hidden;
+}
+.pem,.cem{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.pinfo{
+    margin-right: 20px;
+}
+.einfo{
+    margin-left: 15px;
+}
+.p-text{
+    margin-top: 50px;
+}
+.p-text h3 ,.p-text p  {
+    margin-left: 45px;
+}
+.p-text p {
+    margin-left: 60px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+.e-text{
+    margin-top: 50px;
+}
+.e-text h3 ,.e-text p  {
+    margin-left: 45px;
+}
+.e-text p{
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+.p-text p:hover{
+    color: #fb5849;
+}
+.e-text p:hover{
+    color: #fb5849;
+}
+.e-text h3{
+    margin-left: 80px;
+}
+.table-container{
+    flex: 1;
+    width: 400px;
+    height: 550px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    
+
+}
+.table-container h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.ne,.pn,.dt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+.table-container input{
+    padding: 10px;
+    outline-color: #fb5849;
+    border-radius: 5px;
+    border: none;
+}
+.table-container .message{
+    margin-left: 55px;
+    padding-top: 20px;
+    padding-right: 245px;
+    padding-bottom: 120px;
+    margin-bottom: 20px;
+    
+}
+#btn{
+    margin-left: 55px;
+    padding: 10px 136px;
+    background-color: #fb5849;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+#btn:hover{
+    background-color: #fb5849d4;
+}
 @media (max-width:600px) {
     nav{
         padding: 0 30px;
